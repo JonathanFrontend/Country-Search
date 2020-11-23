@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Play with Api</title>
+</head>
+<body>
+    <main class="container">
+        <div class="box box-1">
+            <h3>Sök på ett land</h3>
+            <form id="form">
+                <input type="text" name="country" id="text" placeholder="Search for country's name or code">
+                <button id="knapp" type="submit">Push</button>
+            </form>
+            <form id="formTwo">
+                <input type="text" name="capital" id="textTwo" placeholder="Capital">
+                <button id="knapp2" type="submit">Push</button>
+            </form>
+            <img id="flag" class="flag" alt="img">
+            <p id="info"></p>
+            <p id="infoTwo"></p>
+            <p id="infoThree"></p>
+            <p id="infoFour"></p>
+        </div>
+        <div class="box box-2">
+            <h3>Sök på ett land genom en bokstav</h3>
+            <form id="form-2">
+                <input type="text" name="country" id="letters" placeholder="Search for country's name or code" autocomplete="off">
+            </form>
+            <img id="flag-2" class="flag" alt="img">
+            <p id="info-2"></p>
+            <p id="infoTwo-2"></p>
+            <p id="infoThree-2"></p>
+            <p id="infoFour-2"></p>
+        </div>
+        <div class="box box-3">
+            <h3>Sök på ett land genom språk</h3>
+            <form id="form-3">
+                <input type="text" name="language" id="lang" placeholder="Search for languages" autocomplete="off">
+                <input type="submit" value="search">
+            </form>
+            <div id="lang-list">
+                
+            </div>
+        </div>
+    </main>
+    <script src="fetching.js"></script>
+    <script src="fetching2.js"></script>
+    <!-- <script src="promising.js"></script> -->
+</body>
+</html>
